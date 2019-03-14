@@ -50,13 +50,11 @@ body
 }
 .navimg
 {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-top: 5px;
 	background-color: #FAFAFA;
 }
-.center {
+.center
+{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -120,6 +118,7 @@ body
 	color: white;
 	padding-left: 2px;
 	font-size: 2vw;
+	
 }
 .logotab
 {
