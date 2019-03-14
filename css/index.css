@@ -1,0 +1,154 @@
+body
+{
+	background-color: #2F2E2E;
+	margin: 0;
+	padding: 0;
+}
+
+.navigbar:hover
+{
+	background-color: #333333;
+	color: white;
+}
+.navidrop:hover
+{
+	background-color: #333333;
+	color: white;
+}
+.attivo
+{
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	max-height: 90px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.carosello
+{
+	padding: 20px 20px 20px 20px;
+	background-color: #2F2E2E;
+}
+.nomargin
+{
+	margin: 0px;
+}
+.nopadding
+{
+	padding: 0px;
+}
+.navlent
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.if
+{ 
+	width: 100%;
+	display: block;
+}
+.navimg
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: #FAFAFA;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+}
+.testosuimm
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+	opacity: 0.7;
+	padding: 10px 10px 10px 10px;
+}
+.testosuimmp
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 25px;
+	opacity: 1.0;
+}
+.listaocchiali
+{
+	text-align: center;
+}
+.listabrand
+{
+	text-align: center;
+}
+.sconti
+{
+	background-color: rgb(100,100,100);
+}
+.hsconti
+{
+	text-align:center;
+}
+*
+{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 0;
+}
+.pspacer
+{
+	height: 15px;
+	background-color:#2F2E2E;
+}
+.sidediv
+{
+	padding: 10px 10px 10px 20px;
+}
+
+.zeissl
+{
+	width: 90%;
+	display: block;
+}
+
+.collabh
+{
+	margin: 0;
+	color: white;
+	padding-left: 2px;
+	font-size: 2vw;
+}
+.logotab
+{
+	margin: auto;
+}
+.divlogotab
+{
+	background-color: white;
+}
+
+.testodiv
+{
+	text-align: center;
+	color: #FAFAFA;
+	margin-top: 20px;
+}
+.profili
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: rgb(212, 212, 212);
+}
+.scritta
+{
+	color: rgb(212, 212, 212);
+}
+.icona
+{
+	height: 20px;
+	width: 20px;
+}

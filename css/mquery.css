@@ -1,0 +1,110 @@
+@media only screen and (min-width: 851px) 
+{
+    .col-dt-1 {width: 8.33%;}
+    .col-dt-2 {width: 16.66%;}
+    .col-dt-3 {width: 25%;}
+    .col-dt-4 {width: 33.33%;}
+    .col-dt-5 {width: 41.66%;}
+    .col-dt-6 {width: 50%;}
+    .col-dt-7 {width: 58.33%;}
+    .col-dt-8 {width: 66.66%;}
+    .col-dt-9 {width: 75%;}
+    .col-dt-10 {width: 83.33%;}
+    .col-dt-11 {width: 91.66%;}
+    .col-dt-12 {width: 100%;}
+    .solodesktop{display: block;}
+    .solotablet{display: none;}
+    .solocell{display: none;}
+    .navigbar
+    {
+	    color: #000000;
+	    text-align: center;
+	    margin: 0px;
+	    background-color: #FAFAFA;
+	    font-size: 1.7vw;
+	    max-height: 90px;
+	    padding-top: 25px;
+	    padding-bottom: 30px;
+    }   
+    .navigbarh
+    {
+	    max-height: 90px;
+	    background-color: #FAFAFA;
+    }  
+    .divcol
+    {
+	    padding-left: 30px;
+    }
+    
+    .indicazioni
+    {
+	    font-size: 1.5vw;
+        color: rgb(212, 212, 212);
+        margin:0;
+    }
+    
+}
+@media only screen and (max-width: 850px) 
+{
+    .col-tab-1 {width: 8.33%;}
+    .col-tab-2 {width: 16.66%;}
+    .col-tab-3 {width: 25%;}
+    .col-tab-4 {width: 33.33%;}
+    .col-tab-5 {width: 41.66%;}
+    .col-tab-6 {width: 50%;}
+    .col-tab-7 {width: 58.33%;}
+    .col-tab-8 {width: 66.66%;}
+    .col-tab-9 {width: 75%;}
+    .col-tab-10 {width: 83.33%;}
+    .col-tab-11 {width: 91.66%;}
+    .col-tab-12 {width: 100%;}
+    .solodesktop{display: none;}
+    .solotablet{display: block;}
+    .solocell{display: none;}
+    .navigbar
+    {
+	    color: #000000;
+	    text-align: center;
+	    margin: 0px;
+	    background-color: #FAFAFA;
+	    font-size: 13pt;
+	    max-height: 70px;
+	    padding-top: 25px;
+	    padding-bottom: 30px;
+    }   
+    .navigbarh
+    {
+	    max-height: 70px;
+        background-color: #FAFAFA;
+        padding: 0;
+    } 
+    .indicazioni
+    {
+	    font-size: 2vw;
+        color: rgb(212, 212, 212);
+        margin-left: 70px;
+        padding:0;
+    }
+}
+@media only screen and (max-width: 580px) 
+{
+    .col-cel-1 {width: 8.33%;}
+    .col-cel-2 {width: 16.66%;}
+    .col-cel-3 {width: 25%;}
+    .col-cel-4 {width: 33.33%;}
+    .col-cel-5 {width: 41.66%;}
+    .col-cel-6 {width: 50%;}
+    .col-cel-7 {width: 58.33%;}
+    .col-cel-8 {width: 66.66%;}
+    .col-cel-9 {width: 75%;}
+    .col-cel-10 {width: 83.33%;}
+    .col-cel-11 {width: 91.66%;}
+    .col-cel-12 {width: 100%;}
+    .solodesktop{display: none;}
+    .solotablet{display: none;}
+    .solocell{display: block;}
+}
+*
+{
+    box-sizing: border-box;
+}
