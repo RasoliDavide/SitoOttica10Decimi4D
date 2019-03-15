@@ -5,6 +5,15 @@ body
 	padding: 0;
 }
 
+
+.logotab
+{
+	margin: auto;
+}
+.divlogotab
+{
+	background-color: white;
+}
 .navigbar:hover
 {
 	background-color: #333333;
@@ -55,4 +64,12 @@ body
 	height: 50px;
 	width: 50px;
 	padding: 5px;
+}
+.scritta
+{
+	color: rgb(212, 212, 212);
+}
+.centrato
+{
+	text-align:center;
 }
