@@ -44,7 +44,13 @@
         color: rgb(212, 212, 212);
         margin:0;
     }
-    
+    .collabh
+    {
+	    margin: 0;
+	    color: white;
+	    padding-left: 2px;
+	    font-size: 2vw;
+    }
 }
 @media only screen and (max-width: 850px) 
 {
@@ -70,13 +76,13 @@
 	    margin: 0px;
 	    background-color: #FAFAFA;
 	    font-size: 13pt;
-	    max-height: 70px;
+	    height: 65px;
 	    padding-top: 25px;
 	    padding-bottom: 1%;
     }   
     .navigbarh
     {
-	    max-height: 80px;
+	    height: 65px;
         background-color: #FAFAFA;
         padding: 0px;
         margin: 0px;
@@ -88,9 +94,17 @@
         margin-left: 25px;
         padding:0;
     }
+    .collabh
+    {
+	    margin: 0;
+	    color: white;
+	    padding-left: 2px;
+        font-size: 5vw;
+        text-align: center;
+    }
     *
     {
-        margin-left: 0px;
+        margin-left: 1px;
     }
 }
 @media only screen and (max-width: 580px) 
