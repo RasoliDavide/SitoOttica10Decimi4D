@@ -9,6 +9,8 @@
 
 		<link rel="stylesheet" href="css/mquery.css">
 
+		<link rel="stylesheet" href="css/base.css">
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
@@ -26,7 +28,7 @@
 			<nav class="navbar navbar-expand-sm col-dt-12 navigbarh">
 				<ul class="navbar-nav col-dt-12 navigbarh">
 					<li class="nav-item col-dt-2 navimg">
-						<img src="img/Negozio/Logo.jpg" class="mx-auto d-block col-dt-11">
+						<img src="img/Negozio/Logo.jpg" class="mx-auto d-block col-dt-11 mx-auto" style="max-height: 70px;">
 					</li>
 					<li class="nav-item  col-dt-2 nopadding">
 						<a class="nav-link navigbar nomargin" href="#">Occhiali</a>
@@ -45,8 +47,8 @@
 							Informazioni
 						</a>
 						<div class="dropdown-menu col-dt-12">
-							<a class="dropdown-item navidrop" href="#">Chi siamo?</a>
-							<a class="dropdown-item navidrop" href="#">Dove siamo?</a>
+							<a class="dropdown-item navidrop" href="#ChiSiamo">Chi siamo?</a>
+							<a class="dropdown-item navidrop" href="#DoveSiamo">Dove siamo?</a>
 							<a class="dropdown-item navidrop" href="#">Recensioni</a>
 							<a class="dropdown-item navidrop" href="#">Tour 360 gradi</a>
 						</div>
@@ -116,7 +118,7 @@
 				</a>
 			</div>	
 		</div>
-		<div class="row col-dt-12 col-tab-12 nomargin" ><!--Sezione Chi siamo-->
+		<div class="row col-dt-12 col-tab-12 nomargin" id="ChiSiamo"><!--Sezione Chi siamo-->
 			<h1 class="testodiv col-dt-12 col-tab-12 nomargin">Chi siamo?</h1>
 		</div>
 		
@@ -171,11 +173,12 @@
 		</div>
 	</div>
 	<div class="row col-dt-12 col-tab-12 nomargin" style="height: 80px;"><!--Sezione Dove siamo-->
-		<h1 class="nomargin testodiv col-dt-12 col-tab-12">Dove siamo?</h1>
+		<h1 class="nomargin testodiv col-dt-12 col-tab-12" id="DoveSiamo">Dove siamo?</h1>
 	</div>
 	<div class="row col-dt-12 col-tab-12 nomargin">
-		<div class="col-dt-2 col-tab-1"></div>
-		<div class="col-dt-8 col-tab-10">
+
+		<div class="col-dt-6 col-tab-12">
+			<div class="col-dt-1"></div>
 			<h2 class="testodiv col-dt-12 col-tab-12">Ci trovi al piano terra del Centro Commerciale Brianza, all'indirizzo: <br>
 				Strada Statale 35 Dei Giovi - 20037 Paderno Dugnano (MI)</h2>
 			<p class="indicazioni col-dt-12 col-tab-12">
@@ -184,11 +187,11 @@
 					<li class="indicazioni col-dt-12 col-tab-10">Dall'uscita 4 Paderno Dugnano/Calderara della Superstrada Milano - Meda (ex SS35 dei Giovi)</li>
 					<li class="indicazioni col-dt-12 col-tab-10">Autostrada A4 Torino - Venezia, uscita Cormano e poi prendere la superstrada Milano - Meda</li>
 					<li class="indicazioni col-dt-12 col-tab-10">Tangenziale Nord A52 direzione Milano, uscita Como/Meda e prendere la superstrada Milano - Meda</li>
-					<li class="indicazioni col-dt-12 col-tab-10">S.P. 46 Rho - Monza direzione Monza e poi Superstrada Milano - Meda</li>
+					<li class="indicazioni col-dt-12col-tab-10">S.P. 46 Rho - Monza direzione Monza e poi Superstrada Milano - Meda</li>
 				</ul>
 			
 			</p>
-			<p class="indicazioni col-dt-12 col-tab-10">
+			<p class="indicazioni col-dt-10 col-tab-10">
 				Come raggiungerci con i mezzi pubblici:
 				<ul class="indicazioni col-dt-12 col-tab-12">
 					<li class="indicazioni col-dt-12 col-tab-10">Servizio Autobus linea Brianza Trasporti Z219</li>
@@ -196,11 +199,11 @@
 					<li class="indicazioni col-dt-12 col-tab-10">Ferrovie Nord (FNM) Direttrice S4 da Milano Cadorna o da Seveso. Fermata Paderno Dugnano.</li>
 				</ul>
 			</p>
-			<a href="https://www.google.com/maps/place/Centro+Commerciale+Brianza/@45.5745545,9.1777924,17z/data=!3m1!4b1!4m5!3m4!1s0x4786befdc78b0045:0x9279604ad7936b0b!8m2!3d45.5745545!4d9.1799811" target="_blank"
-			class="col-dt-12 col-tab-12">
-				<img src="img/mappa.jpg" class="mx-auto d-block col-dt-12 col-tab-11" style="height: auto;">
-			</a>
 		</div>
+		<a href="https://www.google.com/maps/place/Centro+Commerciale+Brianza/@45.5745545,9.1777924,17z/data=!3m1!4b1!4m5!3m4!1s0x4786befdc78b0045:0x9279604ad7936b0b!8m2!3d45.5745545!4d9.1799811" target="_blank"
+		class="col-dt-6 col-tab-12">
+			<img src="img/mappa.jpg" class="mx-auto d-block col-dt-11 col-tab-11" style="height: auto; margin-top: 20%;">
+		</a>
 	</div>
 	<div class="row col-dt-12 col-tab-12" style="height: 80px;"><!--Sezione contattaci-->
 		<h1 class="testodiv col-dt-12 col-tab-12">Contattaci</h1>

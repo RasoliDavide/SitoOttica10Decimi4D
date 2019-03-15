@@ -1,42 +1,7 @@
-body
-{
-	background-color: #2F2E2E;
-	margin: 0;
-	padding: 0;
-}
-
-.navigbar:hover
-{
-	background-color: #333333;
-	color: white;
-}
-.navidrop:hover
-{
-	background-color: #333333;
-	color: white;
-}
-.attivo
-{
-	background-color: #000000;
-	color: rgb(255, 255, 255);
-	max-height: 90px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 0;
-	padding-right: 0;
-}
 .carosello
 {
 	padding: 20px 20px 20px 20px;
 	background-color: #2F2E2E;
-}
-.nomargin
-{
-	margin: 0px;
-}
-.nopadding
-{
-	padding: 0px;
 }
 .navlent
 {
@@ -47,11 +12,6 @@ body
 { 
 	width: 100%;
 	display: block;
-}
-.navimg
-{
-	padding-top: 5px;
-	background-color: #FAFAFA;
 }
 .center
 {
