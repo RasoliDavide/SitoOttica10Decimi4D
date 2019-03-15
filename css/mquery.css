@@ -22,9 +22,8 @@
 	    margin: 0px;
 	    background-color: #FAFAFA;
 	    font-size: 1.7vw;
-	    max-height: 90px;
-	    padding-top: 25px;
-	    padding-bottom: 30px;
+	    height: 70px;
+	    padding-top: 20px;
     }   
     .navigbarh
     {

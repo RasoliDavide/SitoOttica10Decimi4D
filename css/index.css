@@ -3,15 +3,11 @@
 	padding: 20px 20px 20px 20px;
 	background-color: #2F2E2E;
 }
-.navlent
-{
-	padding-left: 0px;
-	padding-right: 0px;
-}
 .if
 { 
 	width: 100%;
 	display: block;
+
 }
 .center
 {
@@ -20,20 +16,6 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 18px;
-}
-.testosuimm
-{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: black;
-	opacity: 0.7;
-	padding: 10px 10px 10px 10px;
-}
-.testosuimmp
-{
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-	font-size: 25px;
-	opacity: 1.0;
 }
 .listaocchiali
 {
@@ -94,15 +76,4 @@
 	margin-top: 10px;
 	margin-bottom: 20px;
 	background-color: rgb(212, 212, 212);
-}
-.scrittaSocial
-{
-	color: rgb(212, 212, 212);
-	font-size: 1.6vw;
-}
-.icona
-{
-	height: 50px;
-	width: 50px;
-	padding: 5px;
 }
