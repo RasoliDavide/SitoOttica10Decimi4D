@@ -110,4 +110,5 @@ body
 .divCarosello
 {
 	max-width: 456px;
+	display: inline-block;
 }
