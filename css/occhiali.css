@@ -18,6 +18,9 @@
 { 
 	display: block;
 	margin: auto;
+
+	max-width: 456px;
+	max-height: 300px;
 }
 .center {
 	position: absolute;
@@ -63,10 +66,7 @@
 }
 .ifOcchiali
 {
-	display: block;
-	margin: auto;
 	max-width: 456px;
-	height: 300px;
 }
 .divCarosello
 {
