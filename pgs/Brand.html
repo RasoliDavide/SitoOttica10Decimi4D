@@ -22,14 +22,14 @@
 		
         <!--Imposto il viewport-->
 		
-		<link rel="stylesheet" href="../css/mquery.css">
-
+	
         
 		<link rel="stylesheet" type="text/css" href="../css/base.css">
 		
 		<link rel="stylesheet" type="text/css" href="../css/brand.css">
+		<link rel="stylesheet" href="../css/mquery.css">
 
-
+		<script src="../JS/ddcell.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
@@ -68,8 +68,10 @@
 				</ul>
 			</nav>	
 		</div><!--Fine Configurazione Navbar Desktop-->
-		<div class="row divlogotab col-tab-12 nomargin solotablet"><!--Logo per tablet-->
-			<img src="../img/Negozio/Logo.jpg" class="logotab solotablet">
+		<div class="row divlogotab col-tab-12 nomargin nodesktop"><!--Logo per tablet-->
+			<a href="../index.html" class="nomargin nopadding">
+				<img src="../img/Negozio/Logo.jpg" class="logotab nodesktop">
+			</a>
 		</div>
 		<div class="row nomargin col-tab-12 nopadding solotablet"> <!--Configurazione navbar tablet-->
 			<nav class="navbar navbar-expand-sm col-tab-12 navigbarh">
@@ -100,13 +102,23 @@
 				</ul>
 			</nav>	
 		</div><!--Fine Configurazione Navbar tablet-->
+		<div class="dropdown solocell"><!--Configurazione navbar cellulare-->
+			<button onclick="ddown()" class="dropbtn bottone">Navigazione</button>
+			<div id="myDropdown" class="dropdown-content col-cel-12 nopadding nomargin">
+			  <a href="Occhiali.html" class="col-cel-3 ">Occhiali</a>
+			  <a href="LentiaContatto.html" class="col-cel-3 ">Lenti a contatto</a>
+			  <a href="Brand.html" class="col-cel-2">Brand</a>
+			  <a href="Prenotazioni.html" class="col-cel-3 ">Prenotazioni</a>
+			  
+			</div>
+		</div>
 		<h1 class="scrittaBrand">I nostri brand: </h1>
 		<div class="row col-dt-12 nomargin nopadding">
 			<div class="col-dt-1 solodesktop"></div>
 			<div class="col-dt-10 col-tab-12">
 				<div class="row col-dt-12 col-tab-12 nopadding nomargin">
 					<div class="col-dt-2 spazioCard">
-						<a href="https://www.balenciaga.com/it/all/occhiali-da-sole" target="_blank">
+						<a href="https://www.balenciaga.com/it/all/occhiali-da-sole" target="_blank" style="color: black;">
 						<img src="../img/Brand/BalenciaGa.jpg" style="width:100%">
 						<div style="background-color:#FAFAFA">
 						  <p class="scrittaCard">BalenciaGa</h4> 

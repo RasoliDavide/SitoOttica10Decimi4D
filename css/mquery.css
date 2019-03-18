@@ -15,6 +15,7 @@
     .solodesktop{display: block;}
     .solotablet{display: none;}
     .solocell{display: none;}
+    .nodesktop{display:none;}
     .navigbar
     {
 	    color: #000000;
@@ -69,6 +70,10 @@
     .solodesktop{display: none;}
     .solotablet{display: block;}
     .solocell{display: none;}
+    .nodesktop
+    {
+        display:block;
+    }
     .navigbar
     {
 	    color: #000000;
@@ -129,6 +134,10 @@
     .solodesktop{display: none;}
     .solotablet{display: none;}
     .solocell{display: block;}
+    .nodesktop
+    {
+        display:block;
+    }
 }
 *
 {
